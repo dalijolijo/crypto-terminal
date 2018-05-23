@@ -1,36 +1,40 @@
 <!DOCTYPE html>
-<html class="no-js">
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="IE=Edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<% if (target === 'dev') { %>
-	<meta http-equiv="Content-Security-Policy" content="default-src 'self' https: data: gap: wss: http: ws:; script-src 'self' 'unsafe-eval' <%= config.ctApi.baseUrl %>/primus/primus.js;">
-<% } else { %>
-	<meta http-equiv="Content-Security-Policy" content="default-src 'self' https: data: gap: wss:; script-src 'self' 'unsafe-eval' <%= config.ctApi.baseUrl %>/primus/primus.js;">
-<% } %>
-	<title><%= info.name %></title>
-	<link href="css/all.min.css" rel="stylesheet">
-<%= html.favicon.content %>
+	<title>CryptoTerminal - In-person cryptocurrency payments for business.</title>
+	<meta name="description" content="In-person cryptocurrency payments for business.">
+	<link rel="canonical" href="https://cryptoterminal.eu">
+	<link rel="stylesheet" href="css/all.min.css">
 </head>
 <body>
-
-<%= html.app.content %>
-
-	<noscript>
-		<!-- This language string is hard-coded because handlebars requires JavaScript. -->
-		<p class="page-description">This app requires JavaScript to function.</p>
-	</noscript>
-<% _.each(_.values(html.templates), function(template) { %>
-	<script type="text/html" id="template-<%= template.key %>">
-<%= template.content %>
-	</script>
-<% }); %>
-	<script type="text/json" id="json-info"><%= JSON.stringify(info) %></script>
-	<script type="text/json" id="json-config"><%= JSON.stringify(config) %></script>
-	<script src="cordova.js"></script>
-	<script src="<%= config.ctApi.baseUrl %>/primus/primus.js"></script>
-	<script src="js/all.js"></script>
-
+	<div class="content main">
+		<div class="wrap">
+			<div class="title-description-and-links">
+				<div class="title-description-and-logo">
+					<img class="logo" src="images/favicon.svg" alt="">
+					<div class="title-and-description">
+						<h1 class="title">CryptoTerminal</h1>
+						<p class="description">In-person cryptocurrency payments for business.</p>
+					</div>
+				</div>
+				<div class="more-info">
+					<div class="supported-cryptocurrencies">
+						<p class="supported-cryptocurrencies-text">Supported cryptocurrencies:</p>
+						<a class="supported-cryptocurrency" href="https://bitcoin.org/"><img class="supported-cryptocurrency-image" src="images/bitcoin.svg" alt="BTC"></a>
+						<a class="supported-cryptocurrency" href="https://litecoin.org/"><img class="supported-cryptocurrency-image" src="images/litecoin.svg" alt="LTC"></a>
+						<a class="supported-cryptocurrency" href="https://getmonero.org/"><img class="supported-cryptocurrency-image" src="images/monero.svg" alt="XMR"></a>
+					</div>
+					<div class="links">
+						<a class="link github" href="https://github.com/samotari/crypto-terminal"><span class="link-text">Powered by open source on</span><img class="github-logo" alt="" src="images/GitHub_Logo_White.png"></a>
+					</div>
+				</div>
+			</div>
+			<div class="screenshots">
+				<img class="screenshot" src="images/device-app-qr-code.svg" alt="">
+			</div>
+		</div>
+	</div>
 </body>
 </html>

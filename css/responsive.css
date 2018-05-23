@@ -1,8 +1,0 @@
-/*
-	High resolution screens.
-*/
-@media screen and (min-resolution: 120dpi) {
-	body {
-		font-size: 1.4rem;
-	}
-}
