@@ -43,3 +43,9 @@
 	height: 1.2rem;
 	background-size: 1.2rem;
 }
+.view.recommended-mobile-wallets .recommendations-group-item-payment-methods .payment-method.bitcoreTestnet {
+        font-size: .6rem;
+}
+.view.recommended-mobile-wallets .recommendations-group-item-payment-methods .payment-method.bitcoreTestnet:after {
+        left: -.15rem;
+}

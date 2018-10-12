@@ -20,6 +20,7 @@ If you would like to contribute to the project, the following should help get yo
 * [Technical Overview](#technical-overview)
 * [Developing with Cryptocurrencies](#developing-with-cryptocurrencies)
   * [Bitcoin](#bitcoin)
+  * [Bitcore](#bitcore)
   * [Litecoin](#litecoin)
   * [Monero](#monero)
 * [Android Development](#android-development)
@@ -102,6 +103,16 @@ It's a good idea to test your application without risking real money, which is w
 Valid testnet master public key that you can use while developing:
 ```
 tpubDD8itYXaDtaTuuouxqdvxfYthFvs8xNbheGxwEcGXJyxrzuyMAxv4xbsw96kz4wKLjSyn3Dd8gbB7kF1bdJdphz1ZA9Wf1Vbgrm3tTZVqSs
+```
+
+### Bitcore
+
+* Testnet wallet applications:
+  * [BitCore Qt](https://github.com/LIMXTEC/BitCore/releases/download/0.15.2.0.0/linux.Ubuntu.16.04.LTS-static-libstdc.tar.gz) - A desktop wallet application which can be run in testnet mode from the command line like this: `bitcore-qt --testnet`
+
+Valid testnet master public key that you can use while developing:
+```
+tpubDE5txWkxMCeTtQY71jqqgyQQDcQtYnHkrzrtGEawoEyhp5zFBnb83Pvbw9N3wpbgyYsypD323G5Xx5Dt58Mr7KoEyZPAA6XZvNyiEgtPEHX
 ```
 
 

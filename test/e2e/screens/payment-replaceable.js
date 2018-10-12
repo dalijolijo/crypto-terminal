@@ -22,7 +22,7 @@ describe('#payment-replaceable [bitcoin]', function() {
 	beforeEach(function() {
 		socketServer.primus.write({
 			channel: 'exchange-rates',
-			data: {'BTC':1.00000000,'CZK':142155.31,'EUR':5467.50,'LTC':77.85130401,'USD':6389.06,'XMR':49.66476285075738763347},
+			data: {'BTC':1.00000000,'BTX':7986.25,'CZK':142155.31,'EUR':5467.50,'LTC':77.85130401,'USD':6389.06,'XMR':49.66476285075738763347},
 		});
 	});
 

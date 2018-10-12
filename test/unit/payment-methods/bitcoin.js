@@ -46,6 +46,32 @@ var samples = [
 		],
 	},
 	{
+		description: 'bitcore (legacy)',
+		paymentMethod: 'bitcore',
+		extendedPublicKey: 'xpub69V9b3wdTWG6Xjtpz5dX8ULpqLKzci3o7YCb6xQUpHAhf3dzFBNeM4GXTSBff82Zh524oHpSPY4XimQMCbxAsprrh7GmCNpp9GNdrHxxqJo',
+		derivationScheme: 'm/0/n',
+		addresses: [
+			'2VjaHdJvPo4FvStSMYzoEvEnj7PvU3qi2t',
+			'2ZhyBevuGF37m84CuwdKhuMjjkPg3ZpiWY',
+			'2RWcpVWBuwNfQWoWFaqWVS4ky7yjRjbCg8',
+			'2TMyXxmFAcxnhMNMzeJWWkhNc2V1ZoZHK4',
+			'2apCAXAmpDT3bmUfuiJfp9jK9RjNGd6vH6'
+		],
+	},
+		{
+		description: 'bitcore (segwit backwards compatible)',
+		paymentMethod: 'bitcore',
+		extendedPublicKey: 'ypub6aF3kr3WGbpBBEUnY5WXhkE8581B8LH36No7fTzLrNBTEB2n5fLEjEUwPd8QqLppdS2dWdhULB5q4xp9Ter3iivhUaYuu4m3zmmVQvvwnTX',
+		derivationScheme: 'm/0/n',
+		addresses: [
+			'sLCarZYA6Ex9WrktajhmvHtkD1o5MZtnnA',
+			'shHzhQzx3pDTKptReptWh1vNY7fiymNv5P',
+			'saSvY336YujdomMZ6NbYdYJysagX58afL6',
+			'sgup96r1CoUwDugd6YkpqCitTZQeQPGToe',
+			'sTpauoG3Qi6cJfPeLt4x3KYHauVYW7uTVq',
+		],
+	},
+	{
 		description: 'litecoin (legacy)',
 		paymentMethod: 'litecoin',
 		extendedPublicKey: 'xpub661MyMwAqRbcEsEC246xJ7246A9KQRSGYe4CEqiXHLcFcFCnGF5q8NNC3JsCUASVMMxQMBp8SjYCEBA94vMoXKVz5LUtZaq4X7yuxDAxa7s',
@@ -97,6 +123,20 @@ var samples = [
 			'mkuo1gQdARMoxJJM612ZdLPXk2ht4sS79y',
 		],
 	},
+        {
+                description: 'bitcoreTestnet (legacy)',
+                paymentMethod: 'bitcoreTestnet',
+                extendedPublicKey: 'tpubDE5txWkxMCeTtQY71jqqgyQQDcQtYnHkrzrtGEawoEyhp5zFBnb83Pvbw9N3wpbgyYsypD323G5Xx5Dt58Mr7KoEyZPAA6XZvNyiEgtPEHX',
+//tpubDD8itYXaDtaTuuouxqdvxfYthFvs8xNbheGxwEcGXJyxrzuyMAxv4xbsw96kz4wKLjSyn3Dd8gbB7kF1bdJdphz1ZA9Wf1Vbgrm3tTZVqSs',
+                derivationScheme: 'm/0/n',
+                addresses: [
+                        'n4ivgjNmaPHzF96JfJyA2TPNiF7iEjCGPW',
+                        'n3jESjiPMSELGfCusHBogGaGfHE29wzGMw',
+                        'miNFo96peMNxZxX2WrkxzHCg9AZXgQDFRg',
+                        'mvnYMagRzrsTY6m2SoxLkva4iELRVANMbd',
+                        'moCpWZrDaoEEfyHgtK2stL187HcKpmcTCy',
+                ],
+        },
 ];
 
 _.each(samples, function(sample) {

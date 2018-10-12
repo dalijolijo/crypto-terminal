@@ -124,7 +124,7 @@ app.config = (function() {
 				required: true,
 				options: function() {
 					var supportedDisplayCurrencies = app.util.getSupportedDisplayCurrencies();
-					var sticky = ['BTC', 'CZK', 'EUR', 'GBP', 'LTC', 'USD', 'XMR'];
+					var sticky = ['BTC', 'BTX', 'CZK', 'EUR', 'GBP', 'LTC', 'USD', 'XMR'];
 					var rest = _.difference(supportedDisplayCurrencies, sticky);
 					return _.map([].concat(sticky, [''], rest), function(code) {
 						return {
@@ -190,7 +190,7 @@ app.config = (function() {
 				android: [
 					{
 						name: 'Coinomi',
-						paymentMethods: ['bitcoinTestnet', 'litecoin'],
+						paymentMethods: ['bitcoinTestnet', 'litecoin', 'bitcore'],
 						url: 'https://play.google.com/store/apps/details?id=com.coinomi.wallet',
 					},
 					{
@@ -208,6 +208,11 @@ app.config = (function() {
 						paymentMethods: ['bitcoin'],
 						url: 'https://play.google.com/store/apps/details?id=com.samourai.wallet',
 					},
+                                        {
+                                                name: 'ZelCore',
+                                                paymentMethods: ['bitcoin', 'litecoin', 'bitcore'],
+                                                url: 'https://play.google.com/store/apps/details?id=com.zelcash.zelcore',
+                                        },
 				],
 				ios: [
 					{
@@ -222,7 +227,7 @@ app.config = (function() {
 					},
 					{
 						name: 'Coinomi',
-						paymentMethods: ['bitcoinTestnet'],
+						paymentMethods: ['bitcoinTestnet', 'bitcore'],
 						url: 'https://itunes.apple.com/us/app/coinomi-wallet/id1333588809?mt=8',
 					},
 					{
@@ -230,6 +235,11 @@ app.config = (function() {
 						paymentMethods: ['litecoin'],
 						url: 'https://itunes.apple.com/us/app/loafwallet/id1119332592?ls=1&mt=8',
 					},
+					{
+                                                name: 'ZelCore',
+                                                paymentMethods: ['bitcoin', 'litecoin', 'bitcore'],
+                                                url: 'https://itunes.apple.com/us/app/zelcore/id1436296839?mt=8',
+                                        },
 				],
 			},
 		},
