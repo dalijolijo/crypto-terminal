@@ -21,6 +21,7 @@ If you would like to contribute to the project, the following should help get yo
 * [Developing with Cryptocurrencies](#developing-with-cryptocurrencies)
   * [Bitcoin](#bitcoin)
   * [Bitcore](#bitcore)
+  * [Bitsend](#bitsend)
   * [Litecoin](#litecoin)
   * [Monero](#monero)
 * [Android Development](#android-development)
@@ -114,6 +115,10 @@ Valid testnet master public key that you can use while developing:
 ```
 tpubDE5txWkxMCeTtQY71jqqgyQQDcQtYnHkrzrtGEawoEyhp5zFBnb83Pvbw9N3wpbgyYsypD323G5Xx5Dt58Mr7KoEyZPAA6XZvNyiEgtPEHX
 ```
+
+### Bitsend
+
+* Testnet: not available
 
 
 ### Litecoin

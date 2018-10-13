@@ -124,7 +124,7 @@ app.config = (function() {
 				required: true,
 				options: function() {
 					var supportedDisplayCurrencies = app.util.getSupportedDisplayCurrencies();
-					var sticky = ['BTC', 'BTX', 'CZK', 'EUR', 'GBP', 'LTC', 'USD', 'XMR'];
+					var sticky = ['BTC', 'BSD', 'BTX', 'CZK', 'EUR', 'GBP', 'LTC', 'USD', 'XMR'];
 					var rest = _.difference(supportedDisplayCurrencies, sticky);
 					return _.map([].concat(sticky, [''], rest), function(code) {
 						return {
@@ -190,7 +190,7 @@ app.config = (function() {
 				android: [
 					{
 						name: 'Coinomi',
-						paymentMethods: ['bitcoinTestnet', 'bitcoin', 'bitcore', 'litecoin'],
+						paymentMethods: ['bitcoinTestnet', 'bitcoin', 'bitcore', 'bitsend', 'litecoin'],
 						url: 'https://play.google.com/store/apps/details?id=com.coinomi.wallet',
 					},
 					{
@@ -200,7 +200,7 @@ app.config = (function() {
 					},
                                         {
                                                 name: 'Jaxx Liberty',
-                                                paymentMethods: ['bitcoin', 'litecoin', 'bitcore'],
+                                                paymentMethods: ['bitcoin', 'bitcore', 'litecoin'],
                                                 url: 'https://play.google.com/store/apps/details?id=com.liberty.jaxx',
                                         },
 					{
@@ -215,7 +215,7 @@ app.config = (function() {
 					},
                                         {
                                                 name: 'ZelCore',
-                                                paymentMethods: ['bitcoin', 'litecoin', 'bitcore'],
+                                                paymentMethods: ['bitcoin', 'bitcore', 'litecoin'],
                                                 url: 'https://play.google.com/store/apps/details?id=com.zelcash.zelcore',
                                         },
 				],
@@ -232,12 +232,12 @@ app.config = (function() {
 					},
 					{
 						name: 'Coinomi',
-						paymentMethods: ['bitcoinTestnet', 'bitcoin', 'bitcore', 'litecoin'],
+						paymentMethods: ['bitcoinTestnet', 'bitcoin', 'bitcore', 'bitsend', 'litecoin'],
 						url: 'https://itunes.apple.com/us/app/coinomi-wallet/id1333588809?mt=8',
 					},
                                         {
                                                 name: 'Jaxx Liberty',
-                                                paymentMethods: ['bitcoin', 'litecoin', 'bitcore'],
+                                                paymentMethods: ['bitcoin', 'bitcore', 'litecoin'],
                                                 url: 'https://itunes.apple.com/us/app/jaxx-liberty/id1435383184?ls=1&mt=8',
                                         },
 					{
@@ -247,7 +247,7 @@ app.config = (function() {
 					},
 					{
                                                 name: 'ZelCore',
-                                                paymentMethods: ['bitcoin', 'litecoin', 'bitcore'],
+                                                paymentMethods: ['bitcoin', 'bitcore', 'litecoin'],
                                                 url: 'https://itunes.apple.com/us/app/zelcore/id1436296839?mt=8',
                                         },
 				],
