@@ -190,7 +190,7 @@ app.config = (function() {
 				android: [
 					{
 						name: 'Coinomi',
-						paymentMethods: ['bitcoinTestnet', 'litecoin', 'bitcore'],
+						paymentMethods: ['bitcoinTestnet', 'bitcoin', 'bitcore', 'litecoin'],
 						url: 'https://play.google.com/store/apps/details?id=com.coinomi.wallet',
 					},
 					{
@@ -198,6 +198,11 @@ app.config = (function() {
 						paymentMethods: ['bitcoinLightning'],
 						url: 'https://play.google.com/store/apps/details?id=fr.acinq.eclair.wallet.mainnet2',
 					},
+                                        {
+                                                name: 'Jaxx Liberty',
+                                                paymentMethods: ['bitcoin', 'litecoin', 'bitcore'],
+                                                url: 'https://play.google.com/store/apps/details?id=com.liberty.jaxx',
+                                        },
 					{
 						name: 'Monerujo',
 						paymentMethods: ['monero'],
@@ -227,9 +232,14 @@ app.config = (function() {
 					},
 					{
 						name: 'Coinomi',
-						paymentMethods: ['bitcoinTestnet', 'bitcore'],
+						paymentMethods: ['bitcoinTestnet', 'bitcoin', 'bitcore', 'litecoin'],
 						url: 'https://itunes.apple.com/us/app/coinomi-wallet/id1333588809?mt=8',
 					},
+                                        {
+                                                name: 'Jaxx Liberty',
+                                                paymentMethods: ['bitcoin', 'litecoin', 'bitcore'],
+                                                url: 'https://itunes.apple.com/us/app/jaxx-liberty/id1435383184?ls=1&mt=8',
+                                        },
 					{
 						name: 'LoafWallet',
 						paymentMethods: ['litecoin'],
