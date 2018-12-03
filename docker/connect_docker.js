@@ -12,7 +12,7 @@ module.exports = {
 	static: {
 		options: {
 			port: 3000,
-			hostname: "localhost",
+			hostname: "DOCKER_IP",
 			base: 'www',
 			keepalive: true
 		}
