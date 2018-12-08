@@ -19,6 +19,9 @@
 .payment-method.bitcore {
         background-image: url('../images/bitcore.svg');
 }
+.payment-method.bitsend {
+        background-image: url('../images/bitsend.svg');
+}
 .payment-method.litecoin,
 .payment-method.litecoinTestnet {
 	background-image: url('../images/litecoin.svg');

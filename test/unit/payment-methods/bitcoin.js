@@ -58,7 +58,7 @@ var samples = [
 			'2GTcSafGMSmgGM1z4xUuCb2d84EzmKBmEU'
 		],
 	},
-		{
+	{
 		description: 'bitcore (segwit backwards compatible)',
 		paymentMethod: 'bitcore',
 		extendedPublicKey: 'ypub6ZQH1kpyv7odncd395PrFCmfurCoQzFgNR24eUwPMGwLV1kTdqSCyBtKgLhzSpHjzMziEJ5F9AAZWvvN4KagH9RqQyKymwCCEJtrF84rjSr',
@@ -82,6 +82,32 @@ var samples = [
                         'btx1qt5ersdeegyg6g3paprkl6sw75gx3fu2p0w09z4',
                         'btx1qpqxjnmgdm9hmkg7a2fmmcw79zuz5g29jfu8lmf',
                         'btx1q6edfl6ufxh0ewrltanh23666c52wch632edc3y',
+                ],
+        },
+        {
+                description: 'bitsend (legacy)',
+                paymentMethod: 'bitsend',
+                extendedPublicKey: 'xpub6EF1QYr681xrPLM61csomeyKUhBEvdjR8CYGzpr7bTPtmaK6NgxCry3AE11hG5odtCetFfjBijTDVr42MjTqcVe2HRjEh65EupsFyJee4wT',
+                derivationScheme: 'm/0/n',
+                addresses: [
+                        'iK2HtjzGLXsZyy3mvKEBwrz4Cqq9czUH1z',
+                        'i6Q639YabnwFrEx4pmQvwrhcWgR4bw4LSq',
+                        'iFBKbjP9w7NihhnSjwy35Bz5x7eqoBDTac',
+                        'iHTysbcYEaUhFZtGpcg8cyY7f5QFWGcUVn',
+                        'i5Jo5Jw4CF8wPUWQsUEPzMnSZ2Zjh6ZVtK'
+                ],
+        },
+        {
+                description: 'bitsend (segwit backwards compatible)',
+                paymentMethod: 'bitsend',
+                extendedPublicKey: 'ypub6ZCdLJ7LkToZJKoruDKbdcJqbt7Ea5S4kVpYY8TPn8x62Jyw8FJiomCZdfYD9V8yj9oQQgvUT79FKxh7vHS85XemV1J76fcvdtJBX8w5uy7',
+                derivationScheme: 'm/0/n',
+                addresses: [
+                        '3GSCJSnPG2aEUtHhdd4RR6v95nSw6RpC4y',
+                        '3PtgFLMBVMTREDh2QqVPUq39inSDYLfKQc',
+                        '35BqyHR4tc2SJkEsmVZBfAmhCS3ifxn2bm',
+                        '3Et2jEzJWLM3doazmiWYb4r2pPcAmmwQxy',
+                        '3Nh9z75qUq2epzpRu8zEcUhi9JeM7i4AA3',
                 ],
         },
 	{

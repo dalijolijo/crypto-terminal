@@ -21,6 +21,7 @@ If you would like to contribute to the project, the following should help get yo
 * [Developing with Cryptocurrencies](#developing-with-cryptocurrencies)
   * [Bitcoin](#bitcoin)
   * [Bitcore](#bitcore)
+  * [Bitsend](#bitsend)
   * [Litecoin](#litecoin)
   * [Monero](#monero)
 * [Android Development](#android-development)
@@ -106,6 +107,10 @@ tpubDD8itYXaDtaTuuouxqdvxfYthFvs8xNbheGxwEcGXJyxrzuyMAxv4xbsw96kz4wKLjSyn3Dd8gbB
 ```
 
 ### Bitcore
+
+* Testnet: not supported
+
+### Bitsend
 
 * Testnet: not supported
 

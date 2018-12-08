@@ -6,7 +6,7 @@ app.config = (function() {
 
 	var config = {
 		debug: false,
-		primaryDisplayCurrencies: ['BTC', 'BTX', 'CZK', 'EUR', 'GBP', 'LTC', 'USD', 'XMR'],
+		primaryDisplayCurrencies: ['BTC', 'BTX', 'BSD', 'CZK', 'EUR', 'GBP', 'LTC', 'USD', 'XMR'],
 		supportEmail: 'cryptoterminal.eu@gmail.com',
 		cache: {
 			onAppStartClearOlderThan: 86400000,// milliseconds
@@ -191,7 +191,7 @@ app.config = (function() {
 				android: [
 					{
 						name: 'Coinomi',
-						paymentMethods: ['bitcoinTestnet', 'bitcoin', 'bitcore', 'litecoin'],
+						paymentMethods: ['bitcoinTestnet', 'bitcoin', 'bitcore', 'bitsend', 'litecoin'],
 						url: 'https://play.google.com/store/apps/details?id=com.coinomi.wallet',
 					},
 					{
@@ -201,7 +201,7 @@ app.config = (function() {
 					},
 					{
 						name: 'Jaxx Liberty',
-						paymentMethods: ['bitcoin', 'litecoin', 'bitcore'],
+						paymentMethods: ['bitcoin', 'bitcore', 'litecoin'],
 						url: 'https://play.google.com/store/apps/details?id=com.liberty.jaxx',
 					},
 					{
@@ -238,7 +238,7 @@ app.config = (function() {
 					},
 					{
 						name: 'Jaxx Liberty',
-						paymentMethods: ['bitcoin', 'litecoin', 'bitcore'],
+						paymentMethods: ['bitcoin', 'bitcore', 'litecoin'],
 						url: 'https://itunes.apple.com/us/app/jaxx-liberty/id1435383184?ls=1&mt=8',
 					},
 					{
