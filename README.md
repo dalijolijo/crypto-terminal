@@ -34,6 +34,7 @@ If you would like to contribute to the project, the following should help get yo
 The following is a list of requirements needed to contribute to this project.
 
 * [nodejs](https://nodejs.org/) - For Linux and Mac install node via [nvm](https://github.com/creationix/nvm). For Windows, use an [installer](https://nodejs.org/en/download/) from the nodejs website.
+  * For Ubuntu 16.04 update to [nodejs v.10](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-16-04) 
 * [grunt-cli](https://gruntjs.com/getting-started) - `npm install -g grunt-cli`
 * For Android development:
   * [cordova](https://cordova.apache.org/#getstarted) - `npm install -g cordova`
