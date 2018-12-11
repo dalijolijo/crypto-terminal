@@ -110,6 +110,32 @@ var samples = [
                         '3Nh9z75qUq2epzpRu8zEcUhi9JeM7i4AA3',
                 ],
         },
+        {
+                description: 'bitcloud (legacy)',
+                paymentMethod: 'bitcloud',
+                extendedPublicKey: 'xpub6FBQW4UoGZsokt3RfJv4BeES8pFnVGDuSYw38UxGY4pVQamhALeoZG3tpthWsymWiFZzm2LQmgpUncDnQAWW3XyG3mc3dQS3jnNHS3Z4XQW',
+                derivationScheme: 'm/0/n',
+                addresses: [
+                        'B7ZP3aeVmnV9LMKdNgXVudWG4VLRbp4Mno',
+                        'BKftCDZEzKQtVppfUKLEJwqG4SStkpjzNr',
+                        'BPhsku6Z2nvmJaHzWas9gxUocMcDgnny1c',
+                        'BRcGhtcAtH1T5zWpqqW5WFwHyuzCrQNTHv',
+                        'B96ytv4HF9XHHoKvvpd42ewv9gcLfVxLC5'
+                ],
+        },
+        {
+                description: 'bitcloud (segwit backwards compatible)',
+                paymentMethod: 'bitcloud',
+                extendedPublicKey: 'ypub6ZMcxq5Nb9LDK4WWCDjUEzUyZynK1pTEs6oTvPej9b4fDGhMGydfEYSowpVAa5QtU4R42km1QgAtMzecoHRxtNz5V6YTxfDojDzAbDS7yyg',
+                derivationScheme: 'm/0/n',
+                addresses: [
+                        '36zCmKFTV2x5FXEyQV1WDd6NRivAQ1E3KU',
+                        '3JWkMGWCSn7MQHoepGn8EFiyvEBfJhcZtP',
+                        '3Dc3EX6r3cGNhRdYVGoujf82oyqsmxgrbU',
+                        '34TdoX2rRiycmXQ6QvgsfmEAq6HpPDzbfK',
+                        '3LXKrux9SrPWDLw7j893exBtTpDTdbep8S',
+                ],
+        },
 	{
 		description: 'litecoin (legacy)',
 		paymentMethod: 'litecoin',

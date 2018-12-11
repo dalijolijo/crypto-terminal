@@ -6,7 +6,7 @@ app.config = (function() {
 
 	var config = {
 		debug: false,
-		primaryDisplayCurrencies: ['BTC', 'BTX', 'BSD', 'CZK', 'EUR', 'GBP', 'LTC', 'USD', 'XMR'],
+		primaryDisplayCurrencies: ['BTC', 'BTX', 'BSD', 'BTDX', 'CZK', 'EUR', 'GBP', 'LTC', 'USD', 'XMR'],
 		supportEmail: 'cryptoterminal.eu@gmail.com',
 		cache: {
 			onAppStartClearOlderThan: 86400000,// milliseconds

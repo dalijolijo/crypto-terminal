@@ -125,6 +125,7 @@ module.exports = {
 					'images/bitcoin.svg',
 					'images/bitcore.svg',
 					'images/bitsend.svg',
+					'images/bitcloud.svg',
 					'images/lightning.svg',
 					'images/litecoin.svg',
 					'images/monero.svg'
