@@ -6,8 +6,8 @@ services:
     image: dalijolijo/crypto-terminal
     container_name: crypto-terminal
     environment:
-      VIRTUAL_HOST: 9e98d434-ec06-49d3-8dba-041726e407a8.pub.cloud.scaleway.com
-      LETSENCRYPT_HOST: 9e98d434-ec06-49d3-8dba-041726e407a8.pub.cloud.scaleway.com
+      VIRTUAL_HOST: efd87f2d-fcb7-4ae3-b102-ad4586880eb6.pub.cloud.scaleway.com
+      LETSENCRYPT_HOST: efd87f2d-fcb7-4ae3-b102-ad4586880eb6.pub.cloud.scaleway.com
       LETSENCRYPT_EMAIL: test@gmx.net
 
   nginx-proxy:
@@ -21,6 +21,7 @@ services:
       - "/usr/share/nginx/html"
       - "/var/run/docker.sock:/tmp/docker.sock:ro"
       - "/etc/nginx/certs"
+      - "/etc/nginx/htpasswd:/etc/nginx/htpasswd"
 
   letsencrypt-nginx-proxy-companion:
     image: jrcs/letsencrypt-nginx-proxy-companion

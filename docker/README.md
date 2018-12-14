@@ -8,6 +8,23 @@ ufw allow 80/tcp
 ufw allow 443/tcp
 ```
 
+### Customazing
+Modifing docker-compose.yml
+```sh
+      VIRTUAL_HOST: <your-website-url>
+      LETSENCRYPT_HOST: <your-website-url>
+      LETSENCRYPT_EMAIL: <your-email>
+```
+
+### Generate password for Basic Authentication
+In order to be able to secure your virtual host, you have to create a file named as its equivalent VIRTUAL_HOST variable on directory /etc/nginx/htpasswd/<your-website-url>
+
+```sh
+apt-get install apache2-utils
+mkdir -p /etc/nginx/htpasswd/
+htpasswd -c /etc/nginx/htpasswd/<your-website-url> btx
+```
+
 ### Run docker solution
 ```sh
 screen
